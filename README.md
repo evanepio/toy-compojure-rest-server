@@ -1,6 +1,6 @@
 # compojure-rest-test-project
 
-FIXME
+Simple REST web service implementation for me to play around with.
 
 ## Prerequisites
 
@@ -16,4 +16,4 @@ To start a web server for the application, run:
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013  Evan Porter
