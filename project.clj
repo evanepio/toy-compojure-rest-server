@@ -2,7 +2,11 @@
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [compojure "1.1.5"]]
+                 [org.clojure/java.jdbc "0.2.3"]
+                 [postgresql "9.1-901.jdbc4"]
+                 [c3p0 "0.9.1.2"]
+                 [compojure "1.1.5"]
+                 [ring/ring-jetty-adapter "1.2.0"]]
   :plugins [[lein-ring "0.8.5"]]
   :ring {:handler toy-compojure-rest-server.handler/app}
   :profiles
