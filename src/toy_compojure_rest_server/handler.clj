@@ -1,4 +1,4 @@
-    (ns clojure-rest.handler
+    (ns toy-compojure-rest-server.handler
       (:import com.mchange.v2.c3p0.ComboPooledDataSource)
       (:use compojure.core)
       (:use cheshire.core)
@@ -16,6 +16,7 @@
     (load "handler_pagestuff")
 
     (defroutes app-routes
+      (GET "/" [] "Hello World")
       (context "/documents" [] (defroutes documents-routes
         (GET  "/" [] (get-all-documents))
         (POST "/" {body :body} (create-new-document body))

@@ -1,4 +1,4 @@
-(in-ns 'clojure-rest.handler)
+(in-ns 'toy-compojure-rest-server.handler)
 
   (def db-config
     {:classname "org.postgresql.Driver"
