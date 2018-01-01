@@ -3,4 +3,4 @@
             [toy-compojure-rest-server.documents :refer [get-all-documents]]))
 
 (defroutes document-routes
-  (GET "/" [] (get-all-documents)))
+  (GET "/" [] get-all-documents))
