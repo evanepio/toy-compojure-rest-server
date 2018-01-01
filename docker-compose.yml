@@ -4,12 +4,12 @@ services:
   db:
     image: postgres:9.4
     environment:
-      POSTGRES_PASSWORD: pass1234
       POSTGRES_USER: toy_user
+      POSTGRES_PASSWORD: pass1234
   clojure:
     build: .
     ports:
       - 3000:3000
     environment:
-      POSTGRES_PASSWORD: pass1234
       POSTGRES_USER: toy_user
+      POSTGRES_PASSWORD: pass1234
