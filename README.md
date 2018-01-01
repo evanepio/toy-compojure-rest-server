@@ -14,13 +14,15 @@ To start a web server for the application, run:
 
     lein ring server
 
+The server will be running on http://localhost:3000/
+
 ## Docker
 
 To run with Docker, use the following command:
 
     docker-compose up -d
     
-You'll then have the server running, along with a postgresql database. To see the logs, run:
+You'll then have the server running on http://localhost:3000/ (on Docker for Mac for sure), along with a postgresql database. To see the logs, run:
 
     docker-compose logs
     
