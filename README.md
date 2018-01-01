@@ -14,6 +14,20 @@ To start a web server for the application, run:
 
     lein ring server
 
+## Docker
+
+To run with Docker, use the following command:
+
+    docker-compose up -d
+    
+You'll then have the server running, along with a postgresql database. To see the logs, run:
+
+    docker-compose logs
+    
+And of course to shut down, use:
+
+    docker-compose down
+
 ## License
 
 Copyright © 2013  Evan Porter
