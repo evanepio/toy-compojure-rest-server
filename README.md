@@ -32,4 +32,4 @@ And of course to shut down, use:
 
 ## License
 
-Copyright © 2013  Evan Porter
+Copyright © 2013-2018 Evan Porter
